@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order - Barbershop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <img src="img/header.jpg" alt="" class="foto">
+    </header>
+
+    <nav>
+        <a href="beranda.html">Beranda</a>
+        <a href="informasi.html">Informasi</a>
+        <a href="order.html">Order</a>
+        <a href="model.html">Model Potongan Rambut</a>
+    </nav>
+
+    <div class="content">
+        <h2>Order</h2>
+        <form action="#" method="post">
+            <label for="name">Nama:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="phone">No. Telepon:</label><br>
+            <input type="text" id="phone" name="phone" required><br><br>
+            
+            <label for="model">Pilih Model Potongan:</label><br>
+            <select id="model" name="model">
+                <option value="fade">Fade Cut</option>
+                <option value="undercut">Undercut</option>
+                <option value="pompadour">Pompadour</option>
+                <option value="buzz">Buzz Cut</option>
+            </select><br><br>
+            
+            <label for="notes">Catatan Tambahan:</label><br>
+            <textarea id="notes" name="notes" rows="4" cols="50"></textarea><br><br>
+            
+            <input type="submit" value="Kirim Order">
+        </form>
+    </div>
+
+</body>
+</html>
